@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ""
+title:  "The cradle of Philos"
 date:   2015-06-21 20:21:55
 categories: jekyll update
 ---
