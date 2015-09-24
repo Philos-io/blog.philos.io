@@ -1,0 +1,706 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* ======================
+MARGIN, PADDING, Z-INDEX
+   ======================*/
+
+/* Margin */
+.margin-top-small-negative{
+	margin-top: -2.0rem;
+}
+
+.margin-top-medium-negative{
+	margin-top: -5.5rem;
+}
+
+.margin-top-high-negative{
+	margin-top: -10.5rem;
+}
+
+.margin-top-small{
+	margin-top: 2.5rem;
+}
+
+.margin-top-medium{
+	margin-top: 5.5rem;
+}
+
+.margin-top-high{
+	margin-top: 10.5rem;
+}
+
+.margin-bottom-small{
+	margin-bottom: 2.5rem;
+}
+
+.margin-bottom-medium{
+	margin-bottom: 5.5rem;
+}
+
+.margin-bottom-high{
+	margin-bottom: 10.5rem;
+}
+
+.margin-left-vsmall{
+	margin-left: 1.0rem;
+}
+
+.margin-right-vsmall{
+	margin-right: 1.0rem;
+}
+
+.no-margin{
+	margin: 0;
+}
+
+.no-margin-bottom{
+	margin-bottom: 0;
+}
+
+/* PADDING */
+.padding-top-small-negative{
+	padding-top: -2.0rem;
+}
+
+.padding-top-medium-negative{
+	padding-top: -5.5rem;
+}
+
+.padding-top-high-negative{
+	padding-top: -10.5rem;
+}
+
+.padding-top-vsmall{
+	padding-top: 1.0rem;
+}
+
+.padding-top-small{
+	padding-top: 2.0rem;
+}
+
+.padding-top-medium{
+	padding-top: 5.5rem;
+}
+
+.padding-top-high{
+	padding-top: 10.5rem;
+}
+
+.padding-bottom-high{
+	padding-bottom: 10.5rem;
+}
+
+.padding-bottom-vsmall{
+	padding-bottom: 1.0rem;
+}
+
+.padding-bottom-small{
+	padding-bottom: 2.0rem;
+}
+
+.padding-bottom-medium{
+	padding-bottom: 5.5rem;
+}
+
+.padding-bottom-high{
+	padding-bottom: 10.5rem;
+}
+
+.padding-left-vsmall{
+	padding-left: 1.0rem;
+}
+
+.padding-right-vsmall{
+	padding-right: 1.0rem;
+}
+
+.padding-right-small{
+	padding-right: 2.0rem;
+}
+
+.padding-left-small{
+	padding-left: 2.0rem;
+}
+
+.no-padding{
+	padding: 0;
+}
+
+.border-top-vsmall{
+	border-top: solid transparent 1.0rem;
+}
+
+.border-top-small{
+	border-top: solid transparent 2.0rem;
+}
+
+.border-top-medium{
+	border-top: solid transparent 5.5rem;
+}
+
+.border-top-high{
+	border-top: solid transparent 10.5rem;
+}
+
+.border-bottom-small{
+	border-bottom: solid transparent 2.0rem;
+}
+
+.border-bottom-medium{
+	border-bottom: solid transparent 5.5rem;
+}
+
+.border-bottom-high{
+	border-bottom: solid transparent 10.5rem;
+}
+
+/* Z-index */
+.raised-1{
+	z-index:1;
+}
+
+.raised-2{
+	z-index:2;
+}
+
+.raised-3{
+	z-index:3;
+}
+
+.raised-4{
+	z-index:4;
+}
+
+.border-bottom-card{
+	border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+}
+/* ======================
+POSTIONS
+   ======================*/
+.align-middle{
+	vertical-align: middle;
+}
+
+.align-bottom{
+	position: absolute;
+    bottom: 0;
+}
+
+.vertical-container{
+	display: -webkit-flex;
+  	display:         flex;
+  	display:      ms-flex;
+  	-webkit-align-items: center;
+    align-items: center;
+  	-webkit-justify-content: center;
+    justify-content: center;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width : 992px){
+	.center-on-med-and-down{
+		text-align: center;
+		}
+}
+/* ======================
+FONT
+   ======================*/
+.uppercase {
+    text-transform: uppercase;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.text-normal-plus{
+	font-size: 1.2rem;
+}
+
+.text-normal-plus-1{
+	font-size: 1.5rem;
+}
+
+.text-normal-minus{
+	font-size: 0.9rem;
+}
+
+.bold-1{
+	font-weight:200;
+}
+
+.bold-2{
+	font-weight:300;
+}
+
+.bold-3{
+	font-weight:400;
+}
+
+.bold-4{
+	font-weight:500;
+}
+
+.bold-5{
+	font-weight:700;
+}
+
+@media only screen and (max-width : 600px) {
+
+h1 {
+  font-size: 2.92rem;
+  line-height: 110%;
+  margin: 1.46rem 0 1.168rem 0; }
+
+h2 {
+  font-size: 2.28rem;
+  line-height: 110%;
+  margin: 1.14rem 0 0.912rem 0; }
+
+h3 {
+  font-size: 2rem;
+  line-height: 110%;
+  margin: 0.82rem 0 0.656rem 0; }
+
+h4 {
+  font-size: 1.80rem;
+  line-height: 110%;
+  margin: 0.5rem 0 0.4rem 0; }
+
+h5 {
+  font-size: 1.55rem;
+  line-height: 110%;
+  margin: 0.5rem 0 0.4rem 0; }
+
+h6 {
+  font-size: 1.1rem;
+  line-height: 110%;
+  margin: 0.5rem 0 0.4rem 0; }
+}
+/* ======================
+COLOR
+   ======================*/
+
+.philos-orange{
+	color: #FF4C27;
+}
+
+.philos-teal{
+	color: #00b36e;
+}
+
+.philos-grey{
+	color: #37474f ;
+}
+
+.philos-orange-bg{
+	background-color: #FF4C27;
+}
+
+.philos-teal-bg{
+	background-color: #00b36e;
+}
+
+.philos-grey-bg{
+	background-color: #37474f;
+}
+/* ======================
+HR
+   ======================*/
+.small-line{
+	width: 10%;
+}
+
+/* ======================
+HEADER
+   ======================*/
+
+.bg-photo{
+	background-image: url(../img/Shooting-L7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+/*	  background-position-x: 30%;
+  background-position-y: 10%;*/
+}
+
+.bg-photo-1{
+	background-image: url(../img/impulse-blackened-2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ background-position-x: 40%;
+  background-position-y: 10%;
+}
+
+.bg-photo-2{
+	background-image: url(../img/crack-the-code.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ background-position-x: 40%;
+  background-position-y: 10%;
+}
+
+.bg-photo-3{
+	background-image: url(../img/crack-the-code-1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+ background-position-x: 40%;
+  background-position-y: 10%;
+}
+
+
+.active{
+	border-bottom: solid 2px white;
+}
+nav ul li:hover, nav ul li.active {
+        background-color: rgba(0, 0, 0, 0);
+         }
+header{
+	/*min-height: 35rem;*/
+}
+
+/* ======================
+UPCOMING EVENTS	
+   ======================*/
+
+.upcoming-event:hover{
+-webkit-opacity: 0.85;
+  opacity: 0.85;
+  -moz-opacity: 0.85;
+  
+}
+
+/* ======================
+TESTIMONIALS
+   ======================*/
+
+
+/* ======================
+FLEX
+   ======================*/
+
+.photo-left-top{
+	background-image: url(../img/performances2.jpg);
+    background-size: cover;
+    height: 12.5rem;
+    box-sizing: border-box;
+}
+
+.photo-left-bottom{
+	background-image: url(../img/event/harmony.jpg);
+    background-size: cover;
+    height: 12.5rem;
+    box-sizing: border-box;
+}
+
+.photo-left-left{
+	background-image: url(../img/event/react2.jpg);
+    background-size: cover;
+    height: 25rem;
+    box-sizing: border-box;
+}
+
+.photo-left-left-1{
+	background-image: url(../img/event/react2.jpg);
+    background-size: cover;
+    height: 12.5rem;
+    box-sizing: border-box;
+}
+
+.photo-right{
+/*	background-color: teal;
+	/*height: 25rem;*/*/
+}
+
+.aligner {
+	display: -webkit-flex;
+  	display:         flex;
+  	display:      ms-flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+.aligner-item {
+  	max-width: 50%;
+}
+
+.aligner-item--top {
+  	align-self: flex-start;
+}
+
+.aligner-item--bottom {
+  	align-self: flex-end;
+}
+
+.flew-column{
+	display: -webkit-flex;
+  	display:         flex;
+  	display:      ms-flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+   	flex-direction: column;
+}
+
+.flew-row{
+	display: -webkit-flex;
+  	display:         flex;
+  	display:      ms-flex;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+   	flex-direction: row;
+}
+
+
+/*html [layout][horizontal], html [layout][vertical] {
+	display: -webkit-flex;
+  	display:         flex;
+  	display:      ms-flex;
+}
+
+html [layout][vertical] {
+    flex-direction: column;
+}
+
+html [layout][horizontal] {
+    flex-direction: row;
+}
+
+html [flex][two] {
+    flex: 2 1 0;
+}
+html [flex] {
+    flex: 1 1 1e-9px;
+}
+
+.pics-section {
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+
+.photo-home {
+	background-image: url(../img/working.jpg);
+    background-position: 50% 0;
+    background-size: cover;
+    min-width: 50%;
+}
+
+.photo-bottom {
+	background-image: url(../img/working.jpg);
+    background-position: 0 0;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.photo-top {
+	background-image: url(../img/working.jpg);
+    background-position: 100% 0;
+    background-size: cover;
+    min-height: 300px;
+}
+.vertical-container{
+	display: -webkit-flex;
+  	display:         flex;
+  	display:      ms-flex;
+  	-webkit-align-items: center;
+    align-items: center;
+  	-webkit-justify-content: center;
+    justify-content: center;
+}
+*/
+
+/* ======================
+WIDTH
+   ======================*/
+
+.width-70{
+	width: 70%;
+}
+
+.width-100{
+	width: 100%;
+}
+
+/* ======================
+HEIGHT
+   ======================*/
+
+.testimonial-height{
+	height: 10rem;
+}
+
+.card-height{
+	height: 11rem;
+}
+
+.card-height-1{
+	height: 15rem;
+}
+
+.card-height-2{
+	height: 18rem;
+}
+
+.card-title1{
+  	min-height: 3rem;
+  }
+
+.card-title2{
+  	min-height: 3rem;
+  }
+
+footer.page-footer {
+  margin-top: 0px;
+  }
+
+.mission-height{
+	min-height: 11rem;
+}
+
+.about-height-1{
+	min-height: 44rem;
+}
+
+.about-height-2{
+	min-height: 22rem;
+}
+
+.about-height-3{
+	min-height: 12rem;
+}
+
+.head-height{
+	min-height: 30rem;
+}
+
+.head-height-2{
+	min-height: 34rem;
+}
+/* ======================
+BUTTON
+   ======================*/
+.btn, .btn-large{
+	background-color: #FF4C27;;
+}
+
+.btn:hover, .btn-large:hover {
+    background-color: #FF5733; }
+
+/* ======================
+NAV 
+   ======================*/
+nav .button-collapse i {
+      font-size: 1.5rem;
+      height: 56px;
+      line-height: 56px; }
+
+.top-nav{
+	min-height: 5rem;
+	background-color: #37474f;
+}
+
+.nav-bg{
+	min-height: 5rem;
+	background-color: #37474f;
+}
+
+/* ======================
+ACCORDION
+   ======================*/
+.collapsible-header{
+	height: auto;
+}
+
+.collapsible-header.active{
+	background-color: #37474f;
+	color: white;
+}
+
+/*.collapsible-header.active i{
+	color: #00b36e;
+}*/
+
+.collapsible-body{
+	background-color: white;
+}
+
+/* ======================
+GOOGLE MAPS
+   ======================*/
+
+#map-canvas{
+	min-height: 20rem;
+}
+
+#explanation{
+	min-height: 20rem;
+}
+
+
+/* ======================
+ABOUT PAGE
+   ======================*/
+
+
+.bg-about-1{
+	background-image: url(../img/impulse6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bg-about-2{
+	background-image: url(../img/Team-BW.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: 60%;
+  	background-position-y: 10%;
+}
+
+.height-title{
+	height: 5rem;
+}
+
+/* ======================
+CARD
+   ======================*/
+.card .card-action a {
+      color:  #FF4C27;
+}
+
+/* ======================
+404 Page
+   ======================*/
+.bg-404{
+	background-image: url(../img/404-error-2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.404{
+	width: 500px;
+	height: auto;
+}
+
+/* ======================
+List
+   ======================*/
+
+.bullet{
+	list-style-type: circle;
+}
