@@ -2,6 +2,7 @@
 layout: post
 title:  "The Cradle of Philos"
 date:   2015-06-21 21:13:38
+image: "https://images.unsplash.com/photo-1437651025703-2858c944e3eb?q=80&fm=jpg&s=0dcc93030e0301f03e423419c0d6a8f9"
 comments: true
 categories: jekyll update
 ---
