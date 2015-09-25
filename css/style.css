@@ -704,3 +704,7 @@ List
 .bullet{
 	list-style-type: circle;
 }
+
+.card.small .card-image {
+    height: 200px;
+}
