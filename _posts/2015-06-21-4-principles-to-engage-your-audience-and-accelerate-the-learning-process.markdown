@@ -3,7 +3,7 @@ layout: post
 title:  "4 principles to engage your audience and accelerate the learning process"
 date:   2015-06-10 21:13:38
 comments: true
-categories: teaching, knowledge sharing, code
+categories: teaching knowledge-sharing code
 ---
 
 After 8 months of giving workshops and conferences with Philos,
