@@ -4,6 +4,7 @@ title:  "4 principles to engage your audience and accelerate the learning proces
 date:   2015-06-10 21:13:38
 image: "https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?q=80&fm=jpg&s=b5bc5b301b282fd18c85d9bb6ef941e6"
 comments: true
+author: 'Max Czet'
 categories: teaching knowledge-sharing code
 ---
 
