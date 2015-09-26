@@ -719,3 +719,13 @@ ul, ol{
 .card .card-content .card-title {
     line-height: 25px;
 }
+
+.card .card-content p {
+    margin: 0;
+    color: rgb(34, 34, 34);
+}
+
+a.card.small {
+    display: block;
+    height: 350px;
+}
