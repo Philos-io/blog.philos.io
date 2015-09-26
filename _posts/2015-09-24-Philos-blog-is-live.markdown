@@ -12,7 +12,7 @@ categories: tech blob jekyll
 It's been months that we planned to move our blog to Jekyll from Medium. We haven't written much yet but our dedication
 to create a dynamic community is taking over.
 
-[Jekyll](https://jekyllrb.com/) is a simple blog engine build that transforms your plain text into static websites and blogs.
+[Jekyll](https://jekyllrb.com/) is a simple blog engine that transforms your plain text into static websites and blogs.
 
 That gives us the flexibility to keep using tools like [atom](http://atom.io) to
 write our blog posts. [atom](http://atom.io) has a nice Markdown **live preview**.
