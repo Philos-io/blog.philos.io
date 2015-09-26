@@ -376,14 +376,14 @@ header{
 }
 
 /* ======================
-UPCOMING EVENTS	
+UPCOMING EVENTS
    ======================*/
 
 .upcoming-event:hover{
 -webkit-opacity: 0.85;
   opacity: 0.85;
   -moz-opacity: 0.85;
-  
+
 }
 
 /* ======================
@@ -603,7 +603,7 @@ BUTTON
     background-color: #FF5733; }
 
 /* ======================
-NAV 
+NAV
    ======================*/
 nav .button-collapse i {
       font-size: 1.5rem;
@@ -703,4 +703,29 @@ List
 
 .bullet{
 	list-style-type: circle;
+}
+
+.card.small .card-image {
+    height: 200px;
+}
+strong{
+  font-weight: 800;
+}
+
+ul, ol{
+  margin-left: 0;
+}
+
+.card .card-content .card-title {
+    line-height: 25px;
+}
+
+.card .card-content p {
+    margin: 0;
+    color: rgb(34, 34, 34);
+}
+
+a.card.small {
+    display: block;
+    height: 350px;
 }

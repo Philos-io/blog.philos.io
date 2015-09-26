@@ -4,9 +4,19 @@ layout: default
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
+      </header>
+
+
+  <div class="card small">
+	  <div class="card-image waves-effect waves-block waves-light">
+		  <img class="activator" src={{ page.image }}>
+	  </div>
+	  <div class="card-content">
+		  <span class="card-title activator grey-text text-darken-4">{{ page.title }}</span>
+		  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+	  </div>
+  </div>
+
 
   <article class="post-content">
     {{ content }}
