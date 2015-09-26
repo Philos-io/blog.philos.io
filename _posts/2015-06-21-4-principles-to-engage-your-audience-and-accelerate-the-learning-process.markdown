@@ -5,6 +5,7 @@ date:   2015-06-10 21:13:38
 image: "https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?q=80&fm=jpg&s=b5bc5b301b282fd18c85d9bb6ef941e6"
 comments: true
 author: 'Max Czet'
+description: 'After 8 months of giving workshops and conferences with Philos, we gathered a great amount of information on how to share knowledge efficiently...'
 categories: teaching knowledge-sharing code
 ---
 
@@ -56,3 +57,7 @@ Applying those 4 simple principles to our conferences and workshops increased bo
 As strong believer in the learning by doing method at Philos, we’re sure there is still room for improvement. So don’t worry, if we stumble upon new principle, we’ll keep you posted!
 
 *Have you tried these techniques yourself? What were your results? Do you have other techniques to share? If so, do not hesitate to list them below* ☺
+
+Happy coding!
+
+**Philos Team*
