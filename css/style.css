@@ -376,14 +376,14 @@ header{
 }
 
 /* ======================
-UPCOMING EVENTS	
+UPCOMING EVENTS
    ======================*/
 
 .upcoming-event:hover{
 -webkit-opacity: 0.85;
   opacity: 0.85;
   -moz-opacity: 0.85;
-  
+
 }
 
 /* ======================
@@ -603,7 +603,7 @@ BUTTON
     background-color: #FF5733; }
 
 /* ======================
-NAV 
+NAV
    ======================*/
 nav .button-collapse i {
       font-size: 1.5rem;
@@ -707,4 +707,15 @@ List
 
 .card.small .card-image {
     height: 200px;
+}
+strong{
+  font-weight: 800;
+}
+
+ul, ol{
+  margin-left: 0;
+}
+
+.card .card-content .card-title {
+    line-height: 25px;
 }
