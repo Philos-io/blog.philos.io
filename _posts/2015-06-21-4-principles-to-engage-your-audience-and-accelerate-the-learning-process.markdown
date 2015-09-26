@@ -60,4 +60,4 @@ As strong believer in the learning by doing method at Philos, we’re sure there
 
 Happy coding!
 
-**Philos Team*
+**Philos Team**
