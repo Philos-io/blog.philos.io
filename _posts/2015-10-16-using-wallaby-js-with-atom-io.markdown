@@ -9,55 +9,79 @@ description: 'After 8 months of giving workshops and conferences with Philos, we
 categories: teaching knowledge-sharing code
 ---
 
-After 8 months of giving workshops and conferences with Philos,
-we gathered a great amount of information on how to share knowledge efficiently.
-We identified 4 main principles that increase the audience’s engagement and help participants assimilate the content more easily.
 
-**Show them why the thing you are teaching will be useful to them**
+# Using WallabyJS with Atom.io
 
-When teaching something, might it be mathematics, chemistry, programming or any other subject it is important to always explain the purpose of what you are teaching. Showing real life examples of what can be achieved with the concepts you are teaching will really help participants appreciate its value. When people don’t see the purpose of your explanation, their attention drop.
+During our Hack Jam in Brussels and Amsterdam we often use TDD as a leaning tool. I won’t explain the benefits of
+using TDD in this post but I’ll highlight the fact that  TESTING is more fun with [WallabyJS](http://wallabyjs.com/).
 
-In many ways, teaching can be compared to selling. When selling something, you want to show all the amazing things you can (will be able to) do with it so that the person really wants to buy it. When teaching something, it’s the same. Show your participants how much better they will become after your training, tease their attention. Because in the end: “People don’t buy products, they buy better versions of themselves”.
+## What is WallabyJS?
 
-**For your audience to grab concepts faster, relate them as much as possible to what they already know**
+WallabyJS is a test runner for JavaScript! That said, most of people would ask ***why do we need another test runner?***
+WallabyJS is not your average test runner, It’s an **intelligent test runner** that does **code coverage**, **runs your tests **
+**continuously as you change your code.  It does that right inside your editor. **No need to switch between your
+IDE and your console.
 
-When explaining abstract or unfamiliar concepts, it is important to relate them as much as possible to what people already know. This comparison process will not only help your participants to grab the concept faster, it will also increase your audience’s engagement.
+WallabyJS isn’t support by all code editors yet.
+You can check the list of IDEs supported [here](https://wallabyjs.com/) or
+vote here if you want them to support yours.
 
-Let’s take an example, if you had to explain HTML and CSS to your mother, giving theoretical definitions probably wouldn’t make much sense to her. Instead, if you were to compare the two with known concepts such as the structure of a car and the painting, this comparison would allow her to relate a lot more on known examples to conceptualise the idea and understand it faster.
+## Setting up WallabyJS for Atom.io
 
-**Adapt to your audience**
+In this short tutorial, we will focus on atom. We will add the atom-wallaby plugin and I’ll show you how to use it to be
+more productive today.
 
-When teaching a new programming language or a new tool, your first step will be to identify your audience. Who are you teaching to? How familiar is your audience with the concepts that you will be explaining?
+You can find an install of atom [here](https://atom.io/)
 
-Programming is based on logic. Even though languages have their discrepancies, it is easy to relate one language to another through some of their concepts. Although written differently, Ruby’s closure will be linked to JavaScript’s closure as will Python’s. Once the logic is understood, it becomes a lot easier for the person to grab all the new concepts.
+Once you have the latest version of atom installed, open the settings panel:
 
-If your audience’s level has discrepancies, try to smooth these out as much as possible. Should the level difference be too big, you might want to think about splitting your group in sub groups to avoid losing too much time explaining concepts that others already master.
+![Alt text](/images/wallabyjs/wallaby-tuto-1.png)
 
-**To eat an elephant, slice it into smaller pieces**
+Inside the settings panel, select the install tab and type ‘atom-wallaby’.
+Just install that package and you’re good to go. :)
 
-To make a goal appear more attainable, it is important to give your audience the impression that each step that will lead them towards the end goal is easily achievable.
+![Alt text](/images/wallabyjs/wallaby-tuto-2.png)
 
-Look at the example below. With this two-step process, it is highly probable that your participants will lose their initial motivation, the second step being way too complex compared to the first one.
+Now let’s open the ES6-Koans project and see how powerful is WallabyJS as a test runner.
+
+![Alt text](/images/wallabyjs/wallaby-tuto-3.png)
+
+To configure Wallaby inside your project, you need to add a configuration file (wallaby.js or wallaby.config).
+Inside this file you need to specify few sections:
+
+* files: where are located your source files
+* tests: where are located your tests
+
+That’s all you need for a basic usage. For the [Hack Jam](http://www.meetup.com/javascript-lab-adam/). Since we use **ES6** I added an extra section for [Babel](https://babeljs.io/) as you can see in the example above.
+
+Now let’s run Babel and see how useful is this tool. Click on the start button at the bottom right corner of your IDE
+
+![Alt text](/images/wallabyjs/wallaby-tuto-4.png)
+
+Wallaby is now running as you could see below: It gives you inline the results of your assertions. This is fantastic!!
+
+![Alt text](/images/wallabyjs/wallaby-tuto-5.png)
+
+Let’s implement our add function right inside this file and see how wallaby gives us some immediate feedback.
+
+![Alt text](/images/wallabyjs/wallaby-tuto-6.png)
+
+Few things to point out here:
+
+* The error message is not the same anymore. Wallaby is running our tests as you are typing.
+* ```console.log(x,y)``` gives you a feedback inline, so no need to open your console or your browser… That’s neat!!
+
+I let you take from there and finish the implementation of this simple function using ES6 and only ES6… Everything should be green!! :)
+
+**Warning**: **atom-wallaby** is still in beta but it works great! If you run into an issue, check the wallaby console or restart it.
 
 
-![Alt text](/images/blog/face-step1.jpeg)
-<br/>
-![Alt text](/images/blog/face-step2.jpeg)
+## Conclusion
 
+WallabyJS  is productivity tool you should be have in your tool belt. It’s not free but the value you get from it is way above its price.
 
+Now time to hack a bit and feel free to share with us your experience using this tool.
 
-Google Street didn’t start by saying “We’ll photograph each and every street in the world”. They started with a city, expanded to another, and another and so on until they finally reach a worldwide collection of photos.
+Happy Hacking!
 
-By breaking down your end goal into small and achievable steps, you’ll accompany your participants towards the objective you want them to reach. With too big steps, you risk losing them along the way.
-
-**Conclusion**
-
-Applying those 4 simple principles to our conferences and workshops increased both our audience engagement and the learning process of our participants. On average, the feedbacks improved by 20% since we apply these techniques.
-
-As strong believer in the learning by doing method at Philos, we’re sure there is still room for improvement. So don’t worry, if we stumble upon new principle, we’ll keep you posted!
-
-*Have you tried these techniques yourself? What were your results? Do you have other techniques to share? If so, do not hesitate to list them below* ☺
-
-Happy coding!
-
-**Philos Team**
+**[Philos Team](https://philos.io/)**
