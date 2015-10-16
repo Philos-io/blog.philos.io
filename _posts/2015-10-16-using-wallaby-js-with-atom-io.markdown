@@ -12,7 +12,7 @@ categories: teaching knowledge-sharing tools
 
 # Using WallabyJS with Atom.io
 
-During our Hack Jam in Brussels and Amsterdam we often use TDD as a leaning tool. I won’t explain the benefits of
+During our Hack Jam in [Brussels](http://www.meetup.com/javascriptlab/) and [Amsterdam](http://www.meetup.com/javascript-lab-adam/) we often use TDD as a leaning tool. I won’t explain the benefits of
 using TDD in this post but I’ll highlight the fact that  TESTING is more fun with [WallabyJS](http://wallabyjs.com/).
 
 ## What is WallabyJS?
