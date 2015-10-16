@@ -78,7 +78,7 @@ I let you take from there and finish the implementation of this simple function 
 
 ## Conclusion
 
-WallabyJS  is productivity tool you should be have in your tool belt. It’s not free but the value you get from it is way above its price.
+WallabyJS  is a productivity tool that you should have in your tools belt. It’s not free but the value you get from it is way above its price.
 
 Now time to hack a bit and feel free to share with us your experience using this tool.
 
