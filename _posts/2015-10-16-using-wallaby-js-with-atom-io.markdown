@@ -17,10 +17,10 @@ using TDD in this post but I’ll highlight the fact that  TESTING is more fun w
 
 ## What is WallabyJS?
 
-WallabyJS is a test runner for JavaScript! That said, most of people would ask ***why do we need another test runner?***
-WallabyJS is not your average test runner, It’s an **intelligent test runner** that does **code coverage**, **runs your tests **
-**continuously as you change your code.  It does that right inside your editor. **No need to switch between your
-IDE and your console.
+WallabyJS is a test runner for JavaScript! That said, most of people would ask **why do we need another test runner?***
+WallabyJS is not your average test runner, It’s an **intelligent test runner** that does **code coverage**, **runs your tests**
+continuously as you change your code.  It does that right inside your editor. **No need to switch between your
+IDE and your console.**
 
 WallabyJS isn’t support by all code editors yet.
 You can check the list of IDEs supported [here](https://wallabyjs.com/) or
