@@ -2,10 +2,10 @@
 layout:post
 title: "Using WallabyJS with Atom.io"
 date: 2015-10-16 17:15
-image: ""
+image: "https://images.unsplash.com/photo-1429051883746-afd9d56fbdaf?q=80&fm=jpg&s=b5bc5b301b282fd18c85d9bb6ef941e6"
 comments: true
-author: 'Davy Engone'
-description: 'WallabyJS is an (intelligent) test runner that runs your tests while coding and gives you feedbacks inline'
+author: "Davy Engone"
+description: "WallabyJS is an (intelligent) test runner that runs your tests while coding and gives you feedbacks inline"
 categories: teaching knowledge-sharing tools
 ---
 
