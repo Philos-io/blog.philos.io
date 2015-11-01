@@ -24,7 +24,8 @@ Here is a simple set of tests we used for writing our function:
 
 Here is a naïve implementation using ES5.
 
-```javascript
+
+{% highlight javascript %}
 function sum(){
   let result = 0;
   for(let i = 0; arguments.length > i; i++){
@@ -32,7 +33,7 @@ function sum(){
   }
   return result;
 }
-```
+{% endhighlight %}
 
 This implementation in ES5 uses arguments since a ```function``` provided it by default. You just have to loop through ```arguments``` and sum every single element.
 
@@ -44,15 +45,15 @@ Let’s implement it using ES6 (officially ES2015) but we like it as ES6. :)
 
 ![Alt text](/images/arrow-function/arrow-function3.png)
 
-Wait, didn’t we say that arrow functions don’t provide the ```*arguments*``` key word? What do we have in line 2 when we console.log arguments?
+Wait, didn’t we say that arrow functions don’t provide the ```*arguments*``` key word? What do we have in line 2 when we log arguments?
 
 We all agree that this implementation is not correct.
 
 **This is the point of this blog post!**
 
-Indeed arrow functions don’t have ```arguments```. Line 2 above should have been *```undefined```*. ***Here is the issue, we are using ES6 module systems which by default will wrap your file into an IIFE and use strict mode***:
+Indeed arrow functions don’t have ```arguments```. Line 2 above should have been *```undefined```*. ***Here is the issue, we are using ES6 module which by default will wrap your file into an IIFE and use strict mode***:
 
-```javascript
+{% highlight javascript %}
 (function(){
   'use strict';
 
@@ -67,29 +68,29 @@ Indeed arrow functions don’t have ```arguments```. Line 2 above should have be
 
   export default sum;
 })();
-```
+{% endhighlight %}
 
 The value of arguments is coming from the outer function and not the ```sum function``` itself. ***This will definitely bite many people so we hope this little post we'll help avoid this simple mistake.***
 
 To finish our implementation, we can use the new spread operator in ES6. Unlike arguments, we will get a real Array and we will be able to use a functional approach to solve our problem:
 
-```javascript
+{% highlight javascript %}
 const sum = (...args)=>{
   return args.reduce((acc, item)=>{
     return acc + item;
   });
 }
 export default sum;
-```
+{% endhighlight %}
 
 
 Or a shorter version:
 
-```javascript
+{% highlight javascript %}
 const sum = (...args) => args.reduce((acc, item)=>{return acc + item;});
 
 export default sum;
-```
+{% highlight %}
 
 With wallabyJS, you can clearly see that the spread operator is a real Array which makes our implementation a breeze:
 
