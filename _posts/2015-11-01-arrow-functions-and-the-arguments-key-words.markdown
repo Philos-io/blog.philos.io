@@ -9,11 +9,11 @@ description: "Arrow functions do not provide the 'arguments' key word but when u
 categories: teaching knowledge-sharing ES6 JavaScript
 ---
 
-# Arrow functions, module systems and ```arguments```
+# Arrow functions, ES6 modules and arguments
 
-As you probably know, the new arrow function in ES6 doesn't provide the Array-like parameter called ```arguments``` nor it’s provided his own ```this``` context. It's part of the specs.
+As you probably know, the new arrow function in ES6 doesn't provide the Array-like parameter called ```arguments``` nor it provides his own ```this``` context. It's part of the specs.
 
-During one of our Hack Jam in [Brussels](http://www.meetup.com/javascriptlab/) and [Amsterdam](http://www.meetup.com/javascript-lab-adam/) we were trying to write a simple function that accepted multiple arguments and return their sum. The only restriction was to use **arrow functions**. Keep it simple and focus on the feature.
+During one of our HackJam in [Brussels](http://www.meetup.com/javascriptlab/) and [Amsterdam](http://www.meetup.com/javascript-lab-adam/) we were trying to write a simple function that takes multiple arguments and returns their sum. The only restriction was to use **arrow functions**. Keep it simple and focus on the feature.
 
 Here is a simple set of tests we used for writing our function:
 
@@ -24,7 +24,7 @@ Here is a simple set of tests we used for writing our function:
 
 Here is a naïve implementation using ES5.
 
-```
+```javascript
 function sum(){
   let result = 0;
   for(let i = 0; arguments.length > i; i++){
@@ -48,11 +48,11 @@ Wait, didn’t we say that arrow functions don’t provide the ```*arguments*```
 
 We all agree that this implementation is not correct.
 
-**This is the point of this post blog!**
+**This is the point of this blog post!**
 
 Indeed arrow functions don’t have ```arguments```. Line 2 above should have been *```undefined```*. ***Here is the issue, we are using ES6 module systems which by default will wrap your file into an IIFE and use strict mode***:
 
-```
+```javascript
 (function(){
   'use strict';
 
@@ -73,7 +73,7 @@ The value of arguments is coming from the outer function and not the ```sum func
 
 To finish our implementation, we can use the new spread operator in ES6. Unlike arguments, we will get a real Array and we will be able to use a functional approach to solve our problem:
 
-```
+```javascript
 const sum = (...args)=>{
   return args.reduce((acc, item)=>{
     return acc + item;
@@ -85,7 +85,7 @@ export default sum;
 
 Or a shorter version:
 
-```
+```javascript
 const sum = (...args) => args.reduce((acc, item)=>{return acc + item;});
 
 export default sum;
@@ -97,7 +97,7 @@ With wallabyJS, you can clearly see that the spread operator is a real Array whi
 
 ## Conclusion
 
-Arrow function don’t have arguments by design. Don’t be fool by the ```arguments``` created by the outer function when using it within ES6 modules system. Spread operators are one of many features in ES6. Along with string literal and Destructuring, they are our favourite features in the new version of JavaScript.
+Arrow function don’t have arguments by design. Don’t be fool by the ```arguments``` created by the outer function when using it within ES6 modules. Spread operators are one of many features in ES6. Along with string literal and Destructuring, they are our favourite features in the new version of JavaScript.
 
 
 Happy Hacking!
