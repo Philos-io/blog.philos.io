@@ -91,7 +91,7 @@ Or a shorter version:
 const sum = (...args) => args.reduce((acc, item)=>{return acc + item;});
 
 export default sum;
-{% highlight %}
+{% endhighlight %}
 
 With wallabyJS, you can clearly see that the spread operator is a real Array which makes our implementation a breeze:
 
