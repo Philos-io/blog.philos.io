@@ -99,7 +99,7 @@ With wallabyJS, you can clearly see that the spread operator is a real Array whi
 
 ## Conclusion
 
-Arrow function don’t have arguments by design. Don’t be fool by the ```arguments``` created by the outer function when using it within ES6 modules. Spread operators are one of many features in ES6. Along with string literal and Destructuring, they are our favourite features in the new version of JavaScript.
+Arrow function don’t have arguments by design. Don’t be fool by the ```arguments``` created by the outer function when using it within ES6 modules. Spread operators are one of many features in ES6. Along with string literal and Destructuring, they are our favourite features in the new version of JavaScript. What is yours? :)
 
 
 Happy Hacking!
