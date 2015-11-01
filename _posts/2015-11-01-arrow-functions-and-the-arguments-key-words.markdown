@@ -2,6 +2,7 @@
 layout: post
 title:  "Arrow functions and the arguments key word..."
 date:   2015-11-01 06:15:58
+highlighter: pygments
 image: "https://images.unsplash.com/photo-1417733403748-83bbc7c05140?ixlib=rb-0.3.5&q=80&fm=jpg&s=b465f239382e56a02e2cb6e94c7e8118"
 comments: true
 author: 'Davy Engone'
