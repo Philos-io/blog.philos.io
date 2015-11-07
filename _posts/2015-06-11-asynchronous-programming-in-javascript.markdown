@@ -10,19 +10,6 @@ description: 'Asynchronous programming in JavaScript is one of....'
 categories: teaching code javascript promise
 ---
 
-It's been months that we planned to move our blog to Jekyll from Medium. We haven't written much yet but our dedication
-to create a dynamic community is taking over.
-
-[Jekyll](https://jekyllrb.com/) is a simple blog engine that transforms your plain text into static websites and blogs.
-
-That gives us the flexibility to keep using tools like [atom](http://atom.io) to
-write our blog posts. [atom](http://atom.io) has a nice Markdown **live preview**.
-
-![Alt text](/images/blog/markdown-live-preview.png)
-
-We spend a lot time writing code and we want to share much of our experience as we do via our conferences, technical events, bootcamps and workshops.
-
-Stay tuned for more technical blog posts.
 
 Happy coding!
 
